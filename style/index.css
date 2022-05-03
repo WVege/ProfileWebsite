@@ -1,12 +1,14 @@
 @import url("var.css");
 
 body{
-    border: solid;
+    /* border: solid; */
     border-width: 20px;
     border-color: black;
     padding: 1.5em;
     margin: 0.2%;
 }
+
+/* ------------------------------------------------------------------------- Tout le contenu sauf menu -----------------------------------------------------------------*/
 
 .content{
     display: flex;
@@ -16,17 +18,24 @@ body{
     margin-top: -6%;
 }
 
+/* --------------------------------------------------------------------------- Le titre uniquement -----------------------------------------------------------------*/
+
 .title{
     display:flex;
     align-items: flex-start;
     margin-top: var(--title-position);
 }
 
+/* --------------------------------------------------------------------------- Le texte descriptif -----------------------------------------------------------------*/
+
 .start{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top: var(--start-position);
 }
+
+/* -------------------------------------------------------La position uniquement du menu (pas le contenu, voir style/menu.css ----------------------------------------*/
 
 .menu{
     display: flex;
