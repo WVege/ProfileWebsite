@@ -1,5 +1,13 @@
 @import url("var.css");
 
+body{
+    border: solid;
+    border-width: 20px;
+    border-color: black;
+    padding: 1.5em;
+    margin: 0.2%;
+}
+
 .content{
     display: flex;
     flex-direction: column;

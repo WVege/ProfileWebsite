@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap@200&family=Zilla+Slab:wght@500&display=swap');
+
 h1{
     font-size: 5em;
+    color: black;
+    font-family: 'Zilla Slab', serif;
 }
 
 h2{
-
+    font-family: 'Raleway', sans-serif;
 }
 
 h3{
-
+    font-family: 'Raleway', sans-serif;
 }
 
 p{
+    font-family: 'Raleway', sans-serif;
+}
 
+a{
+    font-family: 'Raleway', 'sans-serif';
 }
