@@ -1,5 +1,11 @@
 :root{
     --title-position: 7%;
     --start-position: 3%;
+    --blue: #9CB8FF;
+    --border-radius : 2%;
+
 }
 
+.extern{
+    border-radius: var(--border-radius);
+}
