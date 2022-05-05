@@ -1,0 +1,4 @@
+- Améliorer le menu
+- pages/projects : Afficher les projets sous formes de cards sur un caroussel horizontal. Ensuite, avec un hover, afficher la possibilité de consulter  le projet directement (site web ou créa publiée sur le web) ou de consulter la création behance correspondant.
+- Animation du text-shadow qui se déplace en fonction de là où se situe le curseur (comme si il était un soleil qui éclaire le titre)
+- Possibilité de changer le style d'affichage et passer au "mode 3 psyché" (peut être moche, à développer)
