@@ -30,9 +30,42 @@ body{
 
 }
 
+/*Position du menu*/
+
 .menu{
     display: flex;
     justify-content: center;
     flex-direction: row;
     /* margin-top: 5%; */
 }
+
+/*Logo MMI Bordeaux, on enlève les paramètres de style mis dans les .a dans fonts.css*/
+
+a.img_link{
+    background-color: transparent;
+    border: 0px;
+    margin-bottom:10px;
+    margin-top: -15px;
+    padding: 0;
+}
+
+.paragraphe{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+/*Disposition des matières*/
+.studies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    width: 60%;
+}
+
+h2{
+    margin-right:15px;
+    margin-top: 0%;
+}
+

@@ -1,4 +1,4 @@
-a{
+.menu_link{
     margin: 8px;
     background-color: var(--blue);
     padding: 8px;
@@ -7,10 +7,9 @@ a{
     border-radius: var(--border);
 }
 
-a:hover{
+.menu_link:hover{
     box-shadow: 7px 7px 0px black;
     transition: box-shadow 0.2s ;
     border-radius: var(--border-radius);
-
 }
 
