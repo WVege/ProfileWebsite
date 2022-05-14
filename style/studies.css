@@ -1,9 +1,6 @@
 @import url("var.css");
 
 body{
-    /* border: solid; */
-    /* border-width: 20px; */
-    /* border-color: black; */
     padding: 1.5em;
     margin: 0.2%;
 }
@@ -36,7 +33,6 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    /* margin-top: 5%; */
 }
 
 /*Logo MMI Bordeaux, on enlève les paramètres de style mis dans les .a dans fonts.css*/
@@ -64,8 +60,56 @@ a.img_link{
     width: 60%;
 }
 
+.studies h3{
+    margin-left: 5%;
+}
+
 h2{
     margin-right:15px;
     margin-top: 0%;
 }
 
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* margin-bottom: 10%; */
+}
+
+@media screen and (max-width: 1280px)
+{
+    .content{
+        height: 90vh;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    img{
+        width:300px;
+        height:auto;
+    }
+    
+    .menu{
+        display:flex;
+        justify-content: space-around;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin-top: auto;
+    }
+
+    .paragraphe{
+        width:80%;
+    }
+
+    h3{
+        font-size:2em;
+        margin: 2%;
+    }
+
+    .studies{
+        width:70%;
+        margin-top: 5%;
+    }
+}

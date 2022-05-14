@@ -43,3 +43,27 @@ body{
     flex-direction: row;
     /* margin-bottom: 10%; */
 }
+
+@media screen and (max-width: 1280px)
+{
+    .content{
+        height: 90vh;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .start{
+        text-align: center;
+        width:80%;
+    }
+    
+    .menu{
+        display:flex;
+        justify-content: space-around;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin-top: auto;
+    }
+}
