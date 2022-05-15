@@ -69,7 +69,7 @@ body{
     grid-row: 1;
     background-image: 
     linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%),
-    url(../assets/images/passions/music.jpg);
+    url(../assets/images/passions/music.png);
     background-size: cover;
     background-position: bottom 0px left;
 }
@@ -89,7 +89,7 @@ body{
     grid-row: 2;
     background-image: 
         /* linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%), */
-        url(../assets/images/passions/voyage.jpg), url(../assets/images/passions/cinema.jpg), url(../assets/images/passions/series.jpg);
+        url(../assets/images/passions/voyage.png), url(../assets/images/passions/cinema.jpg), url(../assets/images/passions/series.jpg);
     background-position: center left -4%, center left 50%, center right;
     background-size: auto 100%, auto 100%, auto 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
