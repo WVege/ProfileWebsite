@@ -6,7 +6,29 @@
 
 }
 
-.extern{
-    border-radius: var(--border-radius);
+a{
+    font-family: 'Raleway', 'sans-serif';
+    text-decoration:none;
 }
 
+.extern_link{
+    margin: 8px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    box-shadow: none;
+    transition: box-shadow 0.1s;
+    border-radius: var(--border);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    border: solid;
+    border-width: 1.5px;
+    border-color: var(--blue);
+}
+
+.extern_link:hover{
+    box-shadow: 7px 7px 0px var(--blue);
+    transition: box-shadow 0.2s ;
+    border-radius: var(--border-radius);
+}

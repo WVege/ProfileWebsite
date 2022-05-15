@@ -5,6 +5,13 @@
     box-shadow: none;
     transition: box-shadow 0.1s;
     border-radius: var(--border);
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    border: solid;
+    border-width: 1.5px;
+    border-color: black;
 }
 
 .menu_link:hover{
