@@ -3,7 +3,7 @@
     background-color: var(--blue);
     padding: 8px;
     box-shadow: none;
-    transition: box-shadow 0.1s;
+    transition: box-shadow 0.2s;
     border-radius: var(--border);
     color: black;
     text-decoration: none;
@@ -16,7 +16,6 @@
 
 .menu_link:hover{
     box-shadow: 7px 7px 0px black;
-    transition: box-shadow 0.2s ;
     border-radius: var(--border-radius);
 }
 
